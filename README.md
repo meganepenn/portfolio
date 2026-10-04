@@ -4,7 +4,7 @@ A standard Next.js App Router project using React, TypeScript, Tailwind CSS, and
 
 ## Getting started
 
-Install Node.js 22.13 or newer. Extract this ZIP, open the folder in VS Code, and run:
+Install Node.js 22.13 or newer and run:
 
 ```sh
 npm install
@@ -37,5 +37,3 @@ Run `npm run typecheck` to check TypeScript.
 - `public/resume/`: updated résumé and its preview images
 
 Files in `public/` are served from `/`. Add screenshots to `public/projects/` and populate a project's `images` array with `{ src: "/projects/example.png", alt: "Description", caption: "Optional caption" }`. Set its `url` to the actual project link. Confidential projects omit screenshots and links.
-
-This download is independent of ChatGPT Sites: it contains no Vinext, Cloudflare, connector, database, or Sites setup. Editing or deploying this copy does not update the original hosted portfolio. No environment variables are required.
