@@ -1,0 +1,3 @@
+'use client';
+import { usePathname } from 'next/navigation';
+export default function Navigation(){const pathname=usePathname();return <><a className="skip-link" href="#main">Skip to content</a><header className="site-header wrap"><a className="brand" href="/" aria-label="Megan Penn home"><span className="monogram">M</span><span>Megan Penn</span></a><nav aria-label="Main navigation"><a href="/" aria-current={pathname==='/'?'page':undefined}>Home</a><a href="/projects" aria-current={pathname==='/projects'?'page':undefined}>Projects</a><a className="contact-button" href="/contact" aria-current={pathname==='/contact'?'page':undefined}>Contact Me</a></nav></header></>}
